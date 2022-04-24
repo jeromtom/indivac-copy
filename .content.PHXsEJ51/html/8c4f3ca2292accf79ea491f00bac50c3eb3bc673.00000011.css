@@ -1,0 +1,552 @@
+/* lg */ 
+	@media (min-width: 1200px) {
+   
+   
+   }
+   
+   /* md */
+	@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-holder {padding: 40px 0;}
+  .banner-content {width: 560px;}
+  .bnr-txt1 {font-size: 48px;}
+  .bnr-txt2 {font-size: 32px;}
+  .banner-bot h1 {font-size: 24px;}
+  h1 {font-size: 48px;}
+  p.ben-hdng {font-size: 19px;}
+  section#create h1 {font-size: 46px;}
+  p.create-lft {font-size: 21px; line-height: 150%;}
+  section#create h1.form-hdng {font-size: 30px;}
+  .lft-cont,.form-holder {margin-top: 30px;}
+  section#book-now h1 {font-size: 50px;}
+  section#book-now h1 span {font-size: 28px;}
+  .book-area {width: 80%;}
+  .bk-nw {margin: 40px 0 0;}
+  .tp-blue-sec {padding: 30px 0;}
+  .dwn-arr-bk {top: -40px;}
+  section#adult-vccn {padding: 30px 0 0;}
+  .rght-sctn-mrgn { margin-top: 20px;}
+  h1.adlt-txt {font-size: 28px;}
+  h1.adlt-grn {font-size: 35px;}
+  .mobile-section {padding: 70px 0;}
+  .mobile-cnnt {margin-left: 0;}
+  .mob-app-text span {font-size: 40px;}
+  .dwnld-text {font-size: 24px;}
+  .pertnr-img img {width: 170px;}
+  .pertnr-img-new img {width: 170px;}
+  .phn-img {width: 190px;}
+  .app-list li {font-size: 21px;}
+  .family-cntnt-section {padding: 50px 0;}
+  .family-holder {width: 90%;}
+  .family-text {font-size: 34px;}
+  .family-text-new{font-size: 34px;}
+  .family-des {font-size: 30px;}
+  .family-des-new {font-size: 30px;}
+  .family-des span {font-size: 48px;}
+  .family-des-new span {font-size: 48px;}
+  .grn-area-txt {width: 66%;}
+  .grn-area-txt h1{font-size: 38px;}
+  section#nwsletter h1 {font-size: 40px;}
+  .nwsltr-form {width: 55%;}
+  .sbscrb {margin: 0;}
+  ul.logo-list {width: 95%;}
+  p.bot-cl-txt span {font-size: 42px;}
+  p.bot-cl-txt {font-size: 38px;}
+  /*-------------------Child Vaccination-------------------*/
+  .child-vacc-rght,.child-vacc-rght11 {width: 65%;} 
+  .why-list li {font-size: 24px;}
+  .inpt-sml {width: 27.5%;}
+  .sbmt-btn {width: 16%;}
+  ul.dosage li {font-size: 15px; padding: 0 3px;}
+  h2 {font-size: 35px;}
+  .dscnt-txt {font-size: 72px;}
+  .bk-chld-vccn {margin: 0;}
+  /*-------------------Adult Vaccination-------------------*/
+  .banner-holder-adult {padding: 20px 0;}
+  .banner-holder-adult .bnr-txt1 {font-size: 40px;}
+  p.adlt-banr-txt {font-size: 28px;}
+  .ban-bot-l {width: 75%;}
+  .ban-bot-r {width: 25%;}
+  .banner-bot .ban-bot-l h1 {font-size: 22px;}
+  .crt-tp-mrgn {margin-top: 15px;}
+  section#old-couple h1 {font-size: 40px;}
+  section#old-couple .child-vacc-rght {background: rgba(255,255,255,0.6); box-shadow: 0 0 5px #414141; padding: 10px;}
+  ul.diseases-nm li {font-size: 20px; margin-right: 24px;}  
+
+ }
+ 
+    /* sm */
+	@media (min-width: 768px) and (max-width: 991px) {
+   .top-contact p.phn-text {font-size: 22px; margin: 0 5px 0 0;}
+   .top-link a {padding: 7px 13px;}
+   .logo-holder img {width: 200px;}
+   .navbar-nav > li > a {font-size: 16px; padding: 0 10px;}
+   .top-link {height: 45px;}
+   .banner-holder {padding: 30px 0;}
+  .banner-content {width: 450px;}
+  .bnr-txt1 {font-size: 40px;}
+  .bnr-txt2 {font-size: 30px;}
+  .reqst-text {font-size: 20px;}
+  .banner-bot h1 {font-size: 18px;}
+  .create {font-size: 17px; padding: 7px 15px;}
+  h1 {font-size: 40px;}
+  p.ben-hdng {font-size: 17px;}
+  .benft-block img {transform: scale(0.8);}
+  section#create h1 {font-size: 36px;}
+  .rockt-img {display: none;}
+  .lft-cont,.form-holder {margin-top: 30px; width: 100%;}
+  p.create-lft {font-size: 21px; line-height: 150%;}
+  section#create h1.form-hdng {font-size: 26px;}
+  .schedule {font-size: 20px;}
+  section#book-now h1 {font-size: 40px;}
+  section#book-now h1 span {font-size: 24px;}
+  .book-area {width: 90%;}
+  .bk-nw {margin: 40px 0 0; font-size: 22px;}
+  .tp-blue-sec {padding: 30px 0;}
+  .dwn-arr-bk {display: none;}
+  section#adult-vccn {padding: 30px 0 0;}
+  .rght-sctn-mrgn { margin-top: 20px;}
+  h1.adlt-txt {font-size: 20px;}
+  h1.adlt-grn {font-size: 28px;}
+  .knw-mr {font-size: 18px; padding: 10px 25px; margin: 10px 0 0;}
+  .mobile-section {padding: 40px 0;}
+  .mobile-cnnt {margin-left: 0;}
+  .mob-app-text {font-size: 30px; line-height: 100%;}
+  .mob-app-text span {font-size: 30px; }
+  .dwnld-text {font-size: 18px;}
+  .pertnr-img img {width: 130px;}
+  .pertnr-img-new img {width: 130px;}
+  .phn-img {width: 150px;}
+  .app-list li {font-size: 17px;}
+  .family-cntnt-section {padding: 90px 0;}
+  .family-holder {width: 90%; background: rgba(255,255,255,0.7); float: left; margin-left: 5%; padding: 25px;
+  -webkit-box-shadow: 0px 0px 19px -2px rgba(51,51,51,0.68);
+-moz-box-shadow: 0px 0px 19px -2px rgba(51,51,51,0.68);
+box-shadow: 0px 0px 19px -2px rgba(51,51,51,0.68);}
+  .family-text {font-size: 30px;}
+  .family-text-new{font-size: 30px;}
+  .family-des {font-size: 30px;}
+  .family-des span {font-size: 48px;}
+  .family-des-new {font-size: 30px;}
+  .family-des-new span {font-size: 48px;}
+  section#bot-grn-block{background: #91bf39; padding: 20px 0;}
+  .grn-area-txt {width: 100%; text-align: center;}
+  .grn-area-txt h1{font-size: 30px; padding: 0;}
+  section#nwsletter h1 {font-size: 30px;}
+  .nwslttr-block {width: 100%;}
+  .nwsltr-form {width: 60%;}
+  .nws-inpt {height: 45px;}
+  .sbscrb {margin: 0; font-size: 17px; padding: 10px 30px;}
+  ul.logo-list {width: 100%;}
+  p.bot-cl-txt span {font-size: 30px;}
+  p.bot-cl-txt {font-size: 27px;}
+  /*-------------------Child Vaccination-------------------*/
+  .banner-holder-child {background-size: 100% auto; padding: 25px 0;}
+  .banner-holder-child .banner-content {width: 640px;}
+  .banner-holder-child .bnr-txt1 {font-size: 34px;}
+  .banner-holder-child .bnr-txt2 {font-size: 28px;}
+  section#why-vaccne {background: #f7f6f4;}
+  .child-vacc-rght,.child-vacc-rght11 {width: 100%;}
+  .why-list li {font-size: 24px;}
+  .inpt-sml {width: 27%;}
+  .sbmt-btn {width: 16%; font-size: 16px;}
+  section#vacc-schedule {background-size: cover; }
+  section#vacc-schedule h1 {font-size: 36px;}
+  ul.dosage li {font-size: 14px; padding: 0 3px 5px;}
+  .tbl-1 th {font-size: 15px;}
+  .vac-name {font-size: 22px;}
+  .vacc-des {font-size: 15px;}
+  span.full-frm {font-size: 15px;}
+  section#call-now-green {background-size: cover;}
+  h2 {font-size: 27px;}
+  h2.phn-txt-wht {font-size: 35px;}
+  .mobile-img img {width: 220px;}
+  .remind-block {width: 66%;}
+  section#reminder .dwnld {margin: 10px 0 0;}
+  .arr-dwn { margin-left: 0; margin-top: 40px; transform: rotate(360deg);}
+  section#reminder .pertnr-img {margin: -10px 0 0;}
+  section#reminder .pertnr-img-new {margin: -10px 0 0;}
+  .inpt-bot {width: 27%;}
+  .dscnt-txt {font-size: 60px;}
+  /*-------------------Adult Vaccination-------------------*/
+  .banner-holder-adult {padding: 20px 0;}
+  .banner-holder-adult .banner-content {width: 80%;}
+  .banner-holder-adult .bnr-txt1 {font-size: 33px;}
+  p.adlt-banr-txt {font-size: 25px;}
+  .ban-bot-l {width: 76%;}
+  .ban-bot-r {width: 24%;}
+  .banner-bot .ban-bot-l h1 {font-size: 18px;}
+  section#why-vaccne-adlt .child-vacc-rght {background: rgba(255,255,255,0.6); box-shadow: 0 0 5px #414141; padding: 10px;}
+  ul.dis-list-l li,ul.dis-list-r li {font-size: 20px;}
+  .panel-title {font-size: 30px;}
+  .crt-tp-mrgn {margin-top: 15px;}
+  section#old-couple h1 {font-size: 40px;}
+  section#old-couple .child-vacc-rght {background: rgba(255,255,255,0.6); box-shadow: 0 0 5px #414141; padding: 10px;}
+  section#bttm-blue-bg {background: #0071b7;}
+  ul.diseases-nm li {font-size: 20px; margin-right: 24px;}  
+  section#chronic h1 {font-size: 34px;}
+
+}
+
+
+  /* xs */
+   @media (max-width: 767px) {
+   .top-contact p.phn-text {font-size: 16px; margin: 0 5px 0 0; padding-top:10px; padding-bottom: 10px;}
+   .top-link a {padding: 7px 8px; font-size: 15px; margin-left: 3px;}
+   .logo-holder img {width: 195px;}
+   .top-link {height: 45px;}
+   /*---------nav-----------*/
+   .nav-holder {height: 50px;}
+   .navbar { float: right; height: 50px; margin: 10px 0 0;}
+
+   .navbar-inverse .navbar-toggle .icon-bar { background-color: #c4c4c4; border-color: #c4c4c4;}
+   .navbar-toggle {background: #fff; transition: all 0.6s; }
+   .navbar-toggle:hover,.navbar-toggle:focus {background-color: #095aa5 !important;}
+   .nav {width: 100%; background: #0071b7 ;}
+   .navbar-collapse {  border:0; box-shadow: 0 0 5px 2px rgba(0,0,0,.35); position: relative; z-index: 9999;}
+   .navbar-nav > li > a {padding: 0 50px; margin-bottom: 10px; line-height: 140%; color: #fff !important;font-size: 16px;}
+   .navbar-nav > li {margin: 0 0 5px; padding:0; background: none;}
+   .navbar-nav > li:hover:after { bottom: -10px; }
+   .navbar-nav > li.current-menu-item:after {bottom: -10px; }
+   .navbar-nav > li > a:hover,.navbar-nav > li > a:focus,.navbar-nav > li.current-menu-item > a {color: #fff !important;}
+   /*---------nav-----------*/
+  .banner-holder {padding: 30px 0;}
+  .banner-content {width: 400px;}
+  .bnr-txt1 {font-size: 30px;}
+  .bnr-txt2 {font-size: 24px;}
+  .reqst-text {font-size: 18px;}
+  .banner-bot h1 {font-size: 18px; width: 100%; text-align: center; margin-bottom: 10px;}
+  .ban-bot-arw {display: none;}
+  section#create { background-image: none; background-color: #0071b7;}
+  .create {font-size: 17px; padding: 7px 15px; float: none; margin: 0 auto; display: table;}
+  h1 {font-size: 34px;}
+  section#create h1 {font-size: 30px;}
+  .rockt-img {display: none;}
+  .lft-cont,.form-holder {margin-top: 10px; width: 100%;}
+  p.create-lft {font-size: 22px; line-height: 140%; clear: both;}
+  span.icon-block {height: 45px; width: 45px; line-height: 38px; }
+  span.icon-block img {width: 23px;}
+  section#create h1.form-hdng {font-size: 26px;}
+  .schedule {font-size: 20px;}
+  section#book-now h1 {font-size: 30px; width: 100%; padding: 0 0 20px;}
+  section#book-now h1 span {font-size: 20px;}
+  .book-area {width: 100%; text-align: center;} 
+  .bk-nw {margin: 10px 0 0; font-size: 18px; padding: 10px 30px; float: none;}
+  p.cl-txt {font-size: 30px;}
+  p.cl-txt span {font-size: 32px;}
+  .tp-blue-sec {padding: 30px 0;}
+  .dwn-arr-bk {display: none;}
+  section#adult-vccn {padding: 30px 0 0; text-align: center;}
+  section#adult-vccn img {margin-top: 20px;}
+  .rght-sctn-mrgn { margin-top: 20px;}
+  h1.adlt-txt {font-size: 20px;}
+  h1.adlt-grn {font-size: 28px;}
+  .knw-mr {font-size: 18px; padding: 10px 25px; margin: 10px 0 0;}
+  .mobile-section {padding: 40px 0;}
+  .mobile-cnnt {margin-left: 0;}
+  .mob-app-text {font-size: 30px; line-height: 100%;}
+  .mob-app-text span {font-size: 30px; }
+  .dwnld-text {font-size: 18px; }
+  .pertnr-img img {width: 160px;}
+  .pertnr-img-new img {width: 160px;}
+  .phn-img {display: none;}
+  .app-list li {font-size: 17px;}
+  .family-cntnt-section {padding: 30px 0; background: none;}
+  /*.family-holder {width: 90%; background: rgba(255,255,255,0.7); float: left; margin-left: 5%; padding: 25px;
+  -webkit-box-shadow: 0px 0px 19px -2px rgba(51,51,51,0.68);
+-moz-box-shadow: 0px 0px 19px -2px rgba(51,51,51,0.68);
+box-shadow: 0px 0px 19px -2px rgba(51,51,51,0.68);}*/
+  .family-text {font-size: 26px; padding: 0;}
+  .family-text-new{font-size: 26px; padding: 0;}
+  .family-des {font-size: 26px;}
+  .family-des span {font-size: 40px;}
+  .family-des-new {font-size: 26px;}
+  .family-des-new span {font-size: 40px;}
+  section#bot-grn-block{background: #91bf39; padding: 20px 0;}
+  .grn-area-txt {width: 100%; text-align: center;}
+  .grn-area-txt h1{font-size: 30px; padding: 0;}
+  section#nwsletter h1 {font-size: 26px; line-height: 45px;}
+  .nwslttr-block {width: 100%;}
+  .nwsltr-form {width: 60%;}
+  .nws-inpt {height: 45px;}
+  .sbscrb {margin: 0; font-size: 17px; padding: 11px 25px;}
+  ul.logo-list {width: 100%;}
+  ul.logo-list li {width: 31%;}
+  p.bot-cl-txt span {font-size: 27px;}
+  p.bot-cl-txt {font-size: 24px; background: none; padding: 0;}
+  p.dis-text {font-size: 14px;}
+  ul.social-icon li a {width: 36px; height: 36px; line-height: 34px; font-size: 17px;}
+  ul.social-icon li {margin-left: 10px;}
+  /*-------------------Child Vaccination-------------------*/
+  .banner-holder-child {background-size: 100% auto; padding: 15px 0;}
+  .banner-holder-child .banner-content {width: 550px;}
+  .banner-holder-child .bnr-txt1 {font-size: 24px;}
+  .banner-holder-child .bnr-txt2 {font-size: 22px;}
+  section#why-vaccne {background: #f7f6f4;}
+  .child-vacc-rght,.child-vacc-rght11 {width: 100%;}
+  .why-list li {font-size: 20px; padding-bottom: 7px; }
+  .inpt-sml {width: 27%; height: 40px;}
+  .sbmt-btn {width: 16%; font-size: 16px; height: 40px;}
+  section#vacc-schedule {background-size: cover; }
+  section#vacc-schedule h1 {font-size: 31px;}
+  ul.dosage li {font-size: 14px; padding: 0 3px 5px;}
+  .tbl-1 th {font-size: 15px;}
+  .vac-name {font-size: 22px;}
+  .vacc-des {font-size: 15px;}
+  span.full-frm {font-size: 15px;}
+  .tbl-1 th {padding: 5px !important;}
+  .free-arw {display: none;}
+  section#call-now-green {background: #7cbb41; text-align: center;}
+  .rght-wht-brdr {border: none;}
+  h2 {font-size: 27px;}
+  h2.phn-txt-wht {font-size: 35px; padding-top: 15px;}
+  .mobile-img img {width: 190px;}
+  .remind-block {width: 66%;}
+  section#reminder .dwnld {margin: 10px 0; display: inline-block;}
+  .arr-dwn { display: none;}
+  section#reminder .pertnr-img {margin: 10px 0 0;}
+  section#reminder .pertnr-img-new {margin: 10px 0 0;}
+  .inpt-bot {width: 27%; height: 40px;}
+  .dscnt-txt {font-size: 50px;}
+  h1.bot-cl-txt {font-size: 28px;}
+  /*-------------------Adult Vaccination-------------------*/
+  span.quote-l {background: url("../images/quote-l-sml.png") no-repeat scroll left center; padding: 0 0 0 48px;}
+  .banner-holder-adult {padding: 10px 0;}
+  .banner-holder-adult .banner-content {width: 80%;}
+  .banner-holder-adult .bnr-txt1 {font-size: 26px;}
+  p.adlt-banr-txt {font-size: 22px;}
+  .ban-bot-l {width: 70%; background: none; padding: 0;}
+  .ban-bot-r {width: 30%;}
+  .banner-bot .ban-bot-l h1 {font-size: 18px;}
+  .crt-tp-mrgn {margin-top: 20px;}
+  section#why-vaccne-adlt {background-position: top left; background-size: cover;}
+  section#why-vaccne-adlt .child-vacc-rght {background: rgba(255,255,255,0.6); box-shadow: 0 0 5px #414141; padding: 10px;}
+  ul.dis-list-l li,ul.dis-list-r li {font-size: 17px; background-position: left top; text-align: left; padding: 0 0 0 25px;}
+  .diseas-img {display: none;}
+  .panel-title {font-size: 28px;}
+  .tbl-adlt-vacc td {font-size: 16px;}
+  .tbl-adlt-vacc th {font-size: 20px;}
+  section#old-couple h1 {font-size: 40px;}
+  section#old-couple .child-vacc-rght {background: rgba(255,255,255,0.6); box-shadow: 0 0 5px #414141; padding: 10px;}
+  section#bttm-blue-bg {background: #0071b7;}
+  section#bttm-blue-bg h1 { font-size: 22px;}
+  section#bttm-blue-bg p {font-size: 20px;}
+  ul.diseases-nm li {font-size: 18px; margin-right: 20px; margin-bottom: 10px;}  
+  h1.cll-nw-txt { font-size: 30px;}
+  section#chronic h1 {font-size: 34px;}
+
+}
+
+	/* Custom Screen */
+   @media (max-width: 640px) {
+   	.logo-holder { bottom: 0; left: 0; padding: 48px 0 0; position: absolute; text-align: center; top: 0; width: 68%;}
+    header{padding: 0 0 24px;}
+   	.top-contact {width: 100%; text-align: center;}
+   	.top-link {display: table; margin: 0 auto; float: none;}
+    .top-contact p.phn-text {padding: 5px 10px; font-size: 20px; color: #000; }
+   	.top-link a {border-radius: 5px; height: auto;}
+   	.top-link a:hover {height: auto;}
+   	.banner-holder {padding: 30px 0; background-size: cover; background-image: url('../images/banner-img-smll.jpg');}
+  	.banner-content {width: auto; background: rgba(255,255,255,0.86); padding: 30px 20px; box-shadow: 0 0 2px #414141; position: relative; z-index: 8;}
+    .banner-content:after{border: 3px solid #fff; content: ""; height: 106%; left: -6px; position: absolute; right: -2px; top: -6px; width: 104%; z-index: 0;}
+
+  	.bnr-txt1 span {font-size: 22px; color: #000;}
+  	.bnr-txt1 {font-size: 34px; color: #000;}
+  	.bnr-txt2 {font-size: 22px; color: #000;}
+  	.reqst-text {border-radius: 4px; font-size: 16px; padding: 7px 15px;}
+  	.banner-bot h1 {font-size: 17px; width: 100%; text-align: center; margin-bottom: 10px;}
+  	h1 {font-size: 30px;}
+  	p.ben-hdng {font-size: 18px;}
+  	section#create h1 {font-size: 24px;}
+  	p.create-lft {font-size: 18px;}
+  	p.cndtion {font-size: 15px;}
+  	section#create h1.form-hdng {font-size: 22px;}
+  	p.cl-txt {font-size: 22px;}
+  	p.cl-txt span {font-size: 24px;}
+  	.app-cntnt {width: 100%; margin-top: 20px;}
+  	/*.family-holder {width: 100%; margin-left: 0; }*/
+  	.family-text {font-size: 20px; padding: 0;}
+    .family-text-new {font-size: 20px; padding: 0;}
+  	.family-des {font-size: 20px; line-height: 110%;}
+  	.family-des span {font-size: 30px;}
+  	.family-des-new {font-size: 20px; line-height: 110%;}
+  	.family-des-new span {font-size: 30px;}
+  	.grn-area-txt h1{font-size: 24px;}
+  	section#nwsletter h1 {font-size: 20px; line-height: 35px;}
+  	.nws-inpt {height: 35px;}
+  	.sbscrb {margin: 0; font-size: 15px; padding: 6px 15px;}
+  	p.bot-cl-txt span {font-size: 20px;}
+  	p.bot-cl-txt {font-size: 18px; background: none; padding: 0;}
+  	p.dis-text,p.copyright {font-size: 12px;}
+  	p.copyright {padding: 5px 0 0;}
+    /*-------------------Child Vaccination-------------------*/
+    .banner-holder-child {background-size: cover; background-image: url('../images/banner-child-small.jpg'); padding: 15px 0;}
+    .banner-holder-child .banner-content {width: 400px; background: rgba(255,255,255,0.86); box-shadow: none;}
+    .banner-holder-child .bnr-txt1 {font-size: 35px;}
+    .banner-holder-child .bnr-txt2 {font-size: 23px;}
+    section#vacc-schedule h1 {font-size: 23px; padding: 0;}
+    .inpt-sml {width: 24%;}
+    .sbmt-btn {width: 24%; font-size: 14px;}
+    .mobile-img {width: 100%; text-align: center;}
+    .mobile-img img {width: 190px;}
+    .remind-block {width: 100%; padding: 0 0 15px; text-align: center;}
+    section#reminder .pertnr-img {width: 100%; text-align: center;}
+    section#reminder .pertnr-img-new {width: 100%; text-align: center;}
+    .inpt-bot {width: 24%; }
+    .form-bot {padding: 10px;}
+    /*-------------------Adult Vaccination-------------------*/
+    .banner-holder-adult {background-image: url("../images/adult-vacc-banner-sml.jpg"); padding: 110px 0 20px;}
+    .banner-holder-adult .banner-content { width: 440px; }
+    span.quote-l,span.quote-r {display: none;}
+    .banner-holder-adult .banner-content br {display: none;}
+    .banner-holder-adult {padding: 10px 0;}
+    .banner-holder-adult .bnr-txt1 {font-size: 34px; color: #000; padding: 0;}
+    p.adlt-banr-txt {font-size: 22px; padding: 0 0 5px; color: #000;}
+    .ban-bot-l {width: 100%; background: none; text-align: center; padding: 0;}
+    .ban-bot-r {width: 100%; text-align: center;}
+    .banner-bot .ban-bot-l h1 {font-size: 16px;}
+    section#why-vaccne-adlt h1 {font-size: 22px; padding: 0;}
+    section#why-vaccne-adlt .why-list li {font-size: 16px;}
+    .crt-tp-mrgn {margin-top: 0;}
+    section#old-couple h1 {font-size: 30px;}
+    section#chronic h1 {font-size: 26px;}
+    .asthma, .diabetes, .heart {background: none; line-height: 110%; padding: 0;}
+    .panel-heading:hover h4.asthma,.panel-heading:hover h4.diabetes,.panel-heading:hover h4.heart {background: none;}
+    .panel-title {font-size: 22px;}
+
+    .ban-bot-arw {display: none;}
+    section#register-block h1{ font-size: 30px;}
+    section#register-block h2{ font-size: 24px; padding: 0 0 10px;}
+    .reg-block-r{float: none;}
+    section#register-block .reg-btn {display: table;float: none;margin: 20px auto 0;}
+    p.phn-no-txt span{font-size: 32px;}
+    p.mail-txt a{font-size: 32px;}
+    p.mail-txt{font-size: 21px;}
+    p.phn-no-txt{font-size: 21px;}
+    .cntct-form-holder{width: 100%;}
+    article h1{font-size: 20px;}
+    .testimonial-area{width: 100%;}
+    .testi-img-block { display: table; float: none; margin: 0 auto 20px; width: 78%;}
+   	}
+
+
+   /* XS Portrait */
+   @media (max-width: 480px) {
+   .top-link a {clear: both; margin: 5px auto; text-align: center; width: 100%; display: none;}
+   .banner-holder {padding: 20px 0; background-size: cover;}
+   .bnr-txt1 span {font-size: 20px; color: #0062a0;}
+   .bnr-txt1 {font-size: 22px; line-height: 130%; color: #0062a0; padding: 0 0 5px;}
+   .bnr-txt2 {color: #514d4c; font-size: 14px; font-weight: bold; line-height: 140%; padding: 5px 0 3px;}
+   .reqst-text {font-size: 16px; padding: 7px 15px; background: rgba(0, 98, 160, 9) none repeat scroll 0 0; border-radius: 0; display: table; margin: 12px auto 0; color: #fff;}
+   .banner-bot h1 {font-size: 19px; line-height: 147%; margin-bottom: 10px; text-align: center; width: 100%;}
+   .create {font-size: 18px;padding: 7px 14px; position: relative; z-index: 9;}
+   .banner-content {background: rgba(255, 255, 255, 0.86) none repeat scroll 0 0; box-shadow: 0 0 2px #414141; display: table; float: none; margin: 0 auto; padding: 30px 20px; position: relative; width: 95%;}
+    .banner-content:after{border: 3px solid #fff; content: ""; height: 107%; left: -6px; position: absolute; right: -2px; top: -5px; width: 104%; z-index: -1;}
+    ul.links-aftr-news{padding: 0;}
+    ul.links-aftr-news li{font-size: 15px;}
+   h1 {font-size: 27px;}
+   p {font-size: 15px;}
+   section#create h1 {font-size: 20px;}
+   section#create h1.form-hdng {font-size: 19px;}
+   .inpt-style {height: 45px;}
+   .schedule {font-size: 15px;}
+   section#book-now h1 {font-size: 26px;}
+   section#book-now h1 span {font-size: 18px;}
+   .bk-nw {font-size: 15px; padding: 5px 20px;}
+   p.cl-txt img {width: 29px;}
+   p.cl-txt {font-size: 20px;}
+   p.cl-txt span {font-size: 18px;}
+   .rght-sctn-mrgn {margin-top: 0;}
+   h1.adlt-txt {font-size: 17px;}
+   h1.adlt-grn {font-size: 22px;}
+   .knw-mr { font-size: 14px; margin: 10px 0 0; padding: 10px 20px;}
+   .mob-app-text span {font-size: 24px;}
+   .pertnr-img img {width: 110px;}
+   .pertnr-img-new img {width: 110px;}
+   .dwnld-text {width: 100%; font-size: 15px;}
+   .family-text {font-size: 18px;}
+   .family-text-new {font-size: 18px;}
+   .family-des span {font-size: 18px;}
+   .family-des-new span {font-size: 18px;}
+   .grn-area-txt h1 {font-size: 18px;}
+   section#nwsletter h1 {width: 100%; text-align: center;}
+   .nwsltr-form {width: 100%; margin: 0;}
+   .nws-inpt {height: 35px;}
+   .nwsltr-logo-sec {display: block;}
+   ul.logo-list li {width: 48%;}
+   p.bot-cl-txt {width: 100%; text-align: center;}
+   ul.social-icon {margin: 0 auto; float: none; display: table;}
+   .ftr-right {width: 100%; text-align: center;}
+   p.dis-text, p.copyright {text-align: center;}
+   /*-------------------Child Vaccination-------------------*/
+   .banner-holder-child {background-size: cover; padding: 12px 0 17px;}
+   .banner-holder-child .banner-content {width: 280px;}
+   .banner-holder-child .bnr-txt1 {font-size: 26px;}
+   .banner-holder-child .bnr-txt2 {font-size: 18px;}
+   section#why-vaccne h1 {font-size: 20px;}
+   .why-list {margin: 0;}
+   .why-list li {font-size: 16px; background: url("../images/circl-chck-blue.png") no-repeat scroll 0 1px;}
+   section#vacc-schedule h1 {font-size: 21px; padding: 0 0 10px;}
+   .schedule-form .inpt-style, .schedule-form .sbmt-btn {width: 100%;}
+   .sbmt-btn {margin: 0;}
+   section#benefits {padding: 20px 0;}
+   section#schdl-tbl1 {padding: 0;}
+   .reg-btn-blck {margin: 0 auto -20px;}
+   .reg-row {margin: 20px 0 0;}
+   span.full-frm {font-size: 13px;}
+   .vac-name {font-size: 19px;}
+   h2 {font-size: 20px;}
+   h2.phn-txt-wht img {width: 25px;}
+   h2.phn-txt-wht {font-size: 25px;}
+   section#reminder h1 {font-size: 26px;}
+   section#tble-area span {font-size: 21px;}
+   section#discount {background: #91bf39; padding: 20px 0; text-align: center;}
+   .dscnt-txt {font-size: 40px;}
+   h1.bot-cl-txt img {width: 25px;}
+   h1.bot-cl-txt {font-size: 17px;}
+   .sep {margin: 0 0 10px;}
+   /*-------------------Adult Vaccination-------------------*/
+   .banner-holder-adult {background-image: url("../images/adult-vacc-banner-sml.jpg");}
+  .banner-holder-adult .banner-content { width: 300px; }
+  span.quote-l,span.quote-r {display: none;}
+  .banner-holder-adult .banner-content br {display: none;}
+  .banner-holder-adult {padding: 10px 0;}
+  .banner-holder-adult .bnr-txt1 {font-size: 22px; color: #000; padding: 0;}
+  p.adlt-banr-txt {font-size: 18px; padding: 0 0 5px;}
+  .banner-bot .ban-bot-l h1 {font-size: 15px;}
+  section#why-vaccne-adlt h1 {font-size: 20px; padding: 0 0 10px;}
+  .bk-btn {font-size: 15px; padding: 10px 20px;}
+  .diseas-col {width: 100%;}
+  ul.dis-list-l,ul.dis-list-r { display: table; margin: 0 auto;}
+  section#old-couple {background-size: cover;}
+  section#old-couple h1 {font-size: 22px;}
+  p.staying-txt {font-size: 16px;}
+  section#chronic h1 {font-size: 18px;}
+  section#bttm-blue-bg h1 { font-size: 18px;}
+  section#bttm-blue-bg p {font-size: 16px;}
+  ul.diseases-nm li {margin-right: 0; text-align: left; width: 100%;}
+  h1.cll-nw-txt { font-size: 20px;}
+  /*--------vaccination form-------------*/
+  .form-style label { margin: 0 0 10px;}
+  .form-style label > span {margin-bottom: 5px; width: 100%;}
+  .form-style input.input-field,.form-style .textarea-field { clear: both; width: 100%;}
+
+  .ban-bot-arw {display: block;
+    margin: 14px 0 -26px 31px;
+    transform: rotate(-297deg);
+    width: 18%;}
+    ul.newspaper-list li{margin: 0 0 10px; width: 100%;}
+    ul.newspaper-list{margin: 0; padding: 0;}
+    
+}
+
+
+    /*@media screen and (min-width : 320px) and (max-width: 359px) {
+    
+  
+}
+
+
+   @media screen and (min-width :240px) and (max-width: 319px) {
+    .main-area {width:98%;}
+   
+}*/

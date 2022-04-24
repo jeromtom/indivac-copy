@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get vaccination at your door step & request for vaccination at your convenience. Get digital medical reports through your phone at anytime. Call:8100-300-500">
+  <title>Book Vaccination for Children at Home | Indivac</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-holder">
+        <a href="/" title="Indivac"><img src="images/logo.png" alt="logo"></a>
+      </div>
+      <div class="top-contact">
+        <div class="top-link">
+          <p class="phn-text">Helpline: 8100-300-500</p><a href="https://www.facebook.com/Indivac/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="/users/"><span class="lock"></span>Log In</a> <a href="/users/signup"><span class="reg"></span>Register</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li class="current-menu-item">
+              <a href="child-vaccinations">Child Vaccination</a>
+            </li>
+            <li>
+              <a href="adult-vaccination">Adult Vaccination</a>
+            </li>
+            <li>
+              <a href="/blog" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a href="indivac-in-media">Press</a>
+            </li>
+            <li>
+              <a href="contact-indivac">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="banner-holder-child">
+    <div class="container">
+      <div class="banner-content">
+        <p class="bnr-txt1 blue-txt">Protect your child against Diseases</p>
+        <p class="bnr-txt2 blk-txt">It takes more than just love to be a Super Parent.</p><a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="reqst-text">DON’T WAIT. VACCINATE!</a>
+      </div>
+    </div>
+  </div>
+  <section id="why-vaccne">
+    <div class="container">
+      <div class="child-vacc-rght11">
+        <h1>Why <span class="blue-txt bold-txt">Vaccinate your Child?</span></h1>
+        <ul class="why-list">
+          <li>Children need protection early</li>
+          <li>Immunization can save your child’s life</li>
+          <li>Immunization is better than cure</li>
+          <li>Vaccines are safe and effective</li>
+          <li>Vaccines help to keep you healthy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="vacc-schedule">
+    <div class="container" id="vacc_sch_box">
+      <h1 class="cntr wht-txt" id="create">Create your <span class="bold-txt">Child&rsquo;s Vaccination Schedule</span></h1>
+      <p id="ch_error_msg" class="disp-no"></p><input type="text" name="ch_name" value="" placeholder="Child Name" class="inpt-style inpt-sml"> <input type="text" name="ch_dob" value="" placeholder="Date of Birth (DD-MM-YYYY)" class="inpt-style inpt-sml datepicker" autocomplete="off"> <select name="ch_gender" class="inpt-style inpt-sml">
+        <option value="">
+          Gender
+        </option>
+        <option value="female">
+          Female
+        </option>
+        <option value="male">
+          Male
+        </option>
+      </select> <input type="button" class="sbmt-btn" name="btnSchedule" value="CREATE NOW">
+    </div>
+  </section>
+  <section id="benefits">
+    <div class="container">
+      <h1 class="cntr clr">Benefits with <span class="bold-txt blue-txt">Us</span></h1>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon1.png" alt="">
+          <p class="ben-hdng">No more <b>long queues<br>
+          at chambers</b></p>
+          <p>Our expert vaccinators will go at your home as per your comfortable time.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon2.png" alt="">
+          <p></p>
+          <p class="ben-hdng">Never miss out on <b>Vaccination dates</b></p>
+          <p>We ensure timely reminders through our mobile app and SMS.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon3.png" alt="">
+          <p></p>
+          <p class="ben-hdng">No more <b>exposure<br>
+          to sick kids</b></p>
+          <p>No more exposure of your kid to other patients in waiting area.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon4.png" alt="">
+          <p></p>
+          <p class="ben-hdng">Ultimate <b>homely comfort<br>
+          and hygiene</b></p>
+          <p>No more packing bags, food etc. & getting ready for just a vaccination.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="schdl-tbl1">
+    <div class="container">
+      <div class="sep"></div>
+      <h1 class="family-text cntr">Recommended Child Vaccination Schedule</h1>
+      <h1 class="blue-txt cntr bold-txt">as per IAP Guidelines</h1>
+      <p>&nbsp;</p>
+      <div class="table-responsive">
+        <table class="table tbl-1">
+          <thead>
+            <tr>
+              <th width="22%" class="bg-blue wht-txt">Name of the Vaccine</th>
+              <th width="38%" class="bg-grey">Protects Against Disease</th>
+              <th width="40%" class="bg-grey">Dosage (No. of days after birth)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="vac-name cntr bg-blue wht-txt">HepB</td>
+              <td class="vacc-des">
+                HepB vaccine protects against <b>Hepatitis B</b>. Hepatitis B is a contagious liver disease caused by the hepatitis B virus.
+                <div class="more_text disp-no">
+                  When a person is first infected with the virus, he or she can develop an “acute” (short-term) infection. Acute hepatitis B refers to the first 6 months after someone is infected with the hepatitis B virus.
+                </div><a href="javascript:void(0);" class="button_style mr">More</a>
+              </td>
+              <td>
+                <ul class="dosage">
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  At Birth</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  42 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  182 Days</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="vac-name cntr bg-blue-1 wht-txt">BCG</td>
+              <td class="vacc-des">
+                BCG vaccine protects against <b>Tuberculosis</b>. Tuberculosis (TB) is caused by a bacterium called Mycobacterium
+                <div class="more_text disp-no">
+                  tuberculosis. The bacteria usually attack the lungs, but TB bacteria can attack any part of the body such as the kidney, spine, and brain. If not treated properly, TB disease can be fatal.
+                </div><a href="javascript:void(0);" class="button_style mr">More</a>
+              </td>
+              <td>
+                <ul class="dosage">
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  At Birth</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="vac-name cntr bg-blue wht-txt">OPV</td>
+              <td class="vacc-des">
+                OPV vaccine protects against polio. <b>Polio (or poliomyelitis)</b> is a disease caused by poliovirus.
+                <div class="more_text disp-no">
+                  It can cause lifelong paralysis (can’t move parts of the body), and it can be deadly.
+                </div><a href="javascript:void(0);" class="button_style mr">More</a>
+              </td>
+              <td>
+                <ul class="dosage">
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  At Birth</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  42 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  70 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  98 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  455 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  1463 Days</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="vac-name cntr bg-blue wht-txt">DtaP<br>
+              <span class="full-frm">(Diphtheria, Tetanus & Pertussis)</span></td>
+              <td class="vacc-des">
+                DtaP vaccine protects against <b>Diphtheria, Tetanus & Pertussis</b>. Diphtheria is a serious disease caused by a
+                <div class="more_text disp-no">
+                  toxin (poison) made by bacteria. Tetanus is a serious disease caused by a toxin (poison) made by bacteria. Pertussis – or Whooping cough - is a very serious respiratory (in the lungs and breathing tubes) infection caused by the pertussis bacteria.
+                </div><a href="javascript:void(0);" class="button_style mr">More</a>
+              </td>
+              <td>
+                <ul class="dosage">
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  42 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  70 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  98 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  480 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  1463 Days</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="vac-name cntr bg-blue-1 wht-txt">Hib<br>
+              <span class="full-frm">(Haemophilus Influenzae Type B)</span></td>
+              <td class="vacc-des">
+                HaemophilusInfluenzae Type B - Hib vaccine protects against Haemophilusinfluenzae Type B. Hib disease is a serious illness
+                <div class="more_text disp-no">
+                  caused by the bacteria Haemophilusinfluenzae type b. Babies and children younger than 5 years old are most at risk for Hib disease. It can cause lifelong disability and be deadly.
+                </div><a href="javascript:void(0);" class="button_style mr">More</a>
+              </td>
+              <td>
+                <ul class="dosage">
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  42 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  70 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  98 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  480 Days</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="vac-name cntr bg-blue wht-txt">IPV</td>
+              <td class="vacc-des">
+                IPV vaccine protects against polio. Polio (or poliomyelitis) is a disease caused by poliovirus. It can cause lifelong
+                <div class="more_text disp-no">
+                  paralysis (can’t move parts of the body), and it can be deadly.
+                </div><a href="javascript:void(0);" class="button_style mr">More</a>
+              </td>
+              <td>
+                <ul class="dosage">
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  42 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  70 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  98 Days</li>
+                  <li><img src="images/green-circle.png" alt=""><br>
+                  480 Days</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section id="register-block">
+    <div class="container">
+      <div class="reg-block-l">
+        <h1>Register Now</h1>
+        <h2>to get your child’s vaccination schedule and regular reminders</h2>
+      </div>
+      <div class="reg-block-r">
+        <a href="/users/signup" class="knw-mr reg-btn" target="_blank">REGISTER NOW</a>
+      </div>
+    </div>
+  </section>
+  <section id="tble-area">
+    <div class="container">
+      <div class="reg-row">
+        <div class="table-responsive">
+          <table class="table tbl-1">
+            <thead>
+              <tr>
+                <th width="22%" class="bg-blue wht-txt">Name of the Vaccine</th>
+                <th width="38%" class="bg-grey">Protects Against Disease</th>
+                <th width="40%" class="bg-grey">Dosage (No. of days after birth)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="vac-name cntr bg-blue wht-txt">PCV</td>
+                <td class="vacc-des">
+                  PCV vaccine protects against <b>pneumococcus</b>. Pneumococcal disease is an illness caused by bacteria
+                  <div class="more_text disp-no">
+                    called pneumococcus. It is often mild but can cause serious symptoms, lifelong disability, or death. Children younger than 2 years of age are among those most at risk for the disease.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    42 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    70 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    98 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    455 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue-1 wht-txt">RV</td>
+                <td class="vacc-des">
+                  RV vaccine protects against rotavirus. Rotavirus is a virus that causes severe diarrhea and vomiting.
+                  <div class="more_text disp-no">
+                    It affects mostly babies and young children. Diarrhea and vomiting can lead to serious dehydration (loss of body fluid). If dehydration is not treated, it can be deadly.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    70 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    98 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue wht-txt">Influenza (H1N1)</td>
+                <td class="vacc-des">
+                  Flu vaccine [H1N1] protects against influenza. The flu—short for influenza—is an illness caused by influenza viruses.
+                  <div class="more_text disp-no">
+                    Flu viruses infect the nose, throat and lungs. Flu spreads easily and can cause serious problems, especially for very young children, older people, pregnant women, and people with certain long-term medical conditions like asthma and diabetes.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    182 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    212 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue wht-txt">MMR<br>
+                <span class="full-frm">(Measles, Mumps Rubella)</span></td>
+                <td class="vacc-des">
+                  MMR vaccine protects against Measles, Mumps Rubella. Measles is a serious respiratory disease (in the lungs and breathing tubes) that causes a rash and fever.
+                  <div class="more_text disp-no">
+                    Mumps is a contagious disease caused by a virus. It spreads easily through coughing and sneezing. Rubella, sometimes called “German measles,” is a disease caused by a virus. The infection is usually mild with fever and a rash.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    273 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    455 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue-1 wht-txt">HepA</td>
+                <td class="vacc-des">
+                  HepA vaccine protects against hepatitis A. Hepatitis A is a serious liver disease caused by the hepatitis A virus. Children with the virus often don’t have symptoms,
+                  <div class="more_text disp-no">
+                    but they often pass the disease to others, including their unvaccinated parents or care givers. These individuals can get very sick.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    365 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    546 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue wht-txt">Varicella vaccine (ChickenPox)</td>
+                <td class="vacc-des">
+                  Varicella vaccine (shot) protects against chickenpox. Chickenpox is a disease that causes an itchy rash of blisters and a fever.
+                  <div class="more_text disp-no">
+                    A person with chickenpox may have a lot of blisters – as many as 500. The rash can spread over the whole body—even inside the mouth, eyelids, or genital area.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    455 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    545 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue wht-txt">Japanese Encephalitis (JE)</td>
+                <td class="vacc-des">
+                  Japanese Encephalitis (JE) vaccine reduces the risk for infection. Japanese encephalitis virus JEV is the most important cause of viral
+                  <div class="more_text disp-no">
+                    encephalitis in Asia. It is a mosquito-borne flavivirus, and belongs to the same genus as dengue, yellow fever and West Nile viruses.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    365 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    393 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue-1 wht-txt">ViCPS</td>
+                <td class="vacc-des">
+                  ViCPS vaccine protects against Typhoid. Typhoid fever is an infectious bacterial fever with an eruption of red spots on the chest and abdomen and severe intestinal irritation.
+                  <div class="more_text disp-no">
+                    It is caused by bacteria called Salmonella Typhi.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    365 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    730 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    1463 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue wht-txt">Meningococcal</td>
+                <td class="vacc-des">
+                  Meningococcal vaccine is the best way to prevent meningococcal disease. Meningococcal disease is a serious bacterial illness and the leading
+                  <div class="more_text disp-no">
+                    cause of meningitis in children ages 2 through 18. Meningitis is an infection of the fluid surrounding the brain and spinal cord.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    730 Days</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="vac-name cntr bg-blue-1 wht-txt">Human Papilloma Virus (HPV)<br>
+                <span class="full-frm">(Only For Girls-Cervical Cancer)</span></td>
+                <td class="vacc-des">
+                  HPV (Only For Girls-Cervical Cancer) vaccine is the best prevention against Human Papillomavirus. Genital human papillomavirus (HPV) is the most
+                  <div class="more_text disp-no">
+                    common sexually transmitted virus. More than half of sexually active men and women are infected with HPV at some time in their lives.
+                  </div><a href="javascript:void(0);" class="button_style mr">More</a>
+                </td>
+                <td>
+                  <ul class="dosage">
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    3285 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    3345 Days</li>
+                    <li><img src="images/green-circle.png" alt=""><br>
+                    3465 Days</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="reminder">
+    <div class="container">
+      <div class="remind-block">
+        <h1 class="wht-txt bold-txt">Vaccination Reminders,<br>
+        Medical History & more.</h1><a href="javascript:void(0);" style="cursor:none;" class="bk-nw dwnld">DOWNLOAD APP</a><img src="images/arr-dwn.png" alt="DOWNLOAD APP" class="arr-dwn"><br>
+        <div class="pertnr-img">
+          <a href="https://play.google.com/store/apps/details?id=com.indivac" target="_blank"><img src="images/gplay.png" alt=""></a> <a href="https://itunes.apple.com/in/app/indivac-doorstep-vaccination/id1063157261?mt=8" target="_blank"><img src="images/app.png" alt=""></a>
+        </div>
+      </div>
+      <div class="mobile-img"><img src="images/mobile-img.png" alt=""></div>
+    </div>
+  </section>
+  <section id="tble-area">
+    <div class="container" id="vacc_sch_box1">
+      <div class="reg-row"></div>
+      <h1 class="cntr">Create your<br>
+      <span class="blue-txt bold-txt">Child&rsquo;s Vaccination Schedule</span></h1>
+      <div class="form-bot">
+        <p id="ch_error_msg1" class="disp-no"></p><input type="text" name="ch_name" value="" placeholder="Child Name" class="inpt-style inpt-bot"> <input type="text" name="ch_dob" value="" placeholder="Date of Birth (DD-MM-YYYY)" class="inpt-style inpt-bot datepicker" autocomplete="off"> <select name="ch_gender" class="inpt-style inpt-bot">
+          <option value="">
+            Gender
+          </option>
+          <option value="female">
+            Female
+          </option>
+          <option value="male">
+            Male
+          </option>
+        </select> <input type="button" class="sbmt-btn schdl" name="btnSchedule1" value="CREATE NOW">
+      </div>
+      <div class="reg-row"></div>
+    </div>
+  </section>
+  <section id="call-now-green">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 rght-wht-brdr">
+          <h1 class="wht-txt bold-txt no-pddng">Call NOW</h1>
+          <h2 class="wht-txt bold-txt">to book a Vaccination At Home</h2>
+        </div>
+        <div class="col-sm-5">
+          <h2 class="cntr wht-txt phn-txt-wht"><img src="images/phn-wht.png" alt="8100 300 500"> 8100 300 500</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="tble-area">
+    <div class="container">
+      <div class="sep"></div>
+      <div class="reg-row"></div>
+      <h1 class="cntr">We <span class="blue-txt">Ensure</span></h1>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-sm-3 cntr">
+          <img src="images/paramedics.png" alt="">
+          <p class="ben-hdng">Experienced <b>Paramedics</b></p>
+          <p>We send experienced paramedics to vaccinate. You can be rest assured on the authenticity of the vaccinator.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/temp.png" alt="">
+          <p></p>
+          <p class="ben-hdng">Temperature <b>Control</b></p>
+          <p>We maintain proper end-to-end cold chain for the vaccine-in-transit through unique mobile refrigerators maintaining vaccine potency.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/transparency.png" alt="">
+          <p></p>
+          <p></p>
+          <p class="ben-hdng">Total <b>Transparency</b></p>
+          <p>We extend transparency all through the system sharing vaccine details, MRP and other relevant data points.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/timing.png" alt="">
+          <p></p>
+          <p></p>
+          <p class="ben-hdng">Convenient <b>Timing</b></p>
+          <p>Request vaccination at your convenient timing. No more missing out or delays to office/work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bot-grn-block">
+    <div class="container">
+      <div class="grn-area-txt">
+        <h1 class="wht-txt"><span class="bold-txt">INDIVAC</span> - Simplifying Vaccination<br>
+        For A Healthy Nation</h1>
+      </div>
+    </div>
+  </section>
+  <section id="nwsletter">
+    <div class="container">
+      <div class="nwslttr-block">
+        <h1 class="wht-txt">Email <span class="bold-txt">Newsletter</span></h1>
+        <form action="controller/subscribenow.php" method="post" class="nwsltr-form">
+          <input type="hidden" name="email_news_pagename" value="child-vaccinations.php"> <input type="email" name="email_news" class="inpt-style nws-inpt" placeholder="Email Address" required=""> <input type="email" class="disp-no" name="email_hidden"> <input type="submit" value="SUBSCRIBE" name="subsc" class="bk-nw sbscrb">
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="media">
+    <div class="container">
+      <h1 class="cntr clr">Indivac in <span class="bold-txt blue-txt">Media</span></h1>
+      <p>&nbsp;</p>
+      <div class="nwsltr-logo-sec">
+        <ul class="logo-list">
+          <li>
+            <a href="http://articles.economictimes.indiatimes.com/2015-11-26/news/68582013_1_vaccination-indian-academy-lcd-display" target="_blank"><img src="images/e-t-logo.jpg" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://bangla.yourstory.com/read/d473b1ac3a/door-to-door-service-tikakarane-indibhyakera?c=b6" target="_blank"><img src="images/your-story.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.thehindubusinessline.com/news/national/vaccination-service-in-kolkata/article7919877.ece" target="_blank"><img src="images/hindu-b-line.jpg" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="https://in.news.yahoo.com/kid-vaccinated-home-click-button-132604482.html" target="_blank"><img src="images/yahoo.jpeg" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.business-standard.com/article/news-ians/get-your-kid-vaccinated-at-home-at-the-click-of-a-button-115112600959_1.html" target="_blank"><img src="images/bs-logo.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://zeenews.india.com/news/health/health-news/get-your-kid-vaccinated-at-home-at-the-click-of-a-button_1826905.html" target="_blank"><img src="images/zeenews-logo.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/anandabaza.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/hindustan.gif" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/times-of-india.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/telegraph.jpg" class="grayscale" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <div class="testi-rd-mr">
+        <a class="knw-mr" href="indivac-in-media">CLICK HERE TO READ MORE</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div id='toTop' title="Scroll to top"></div>
+    <div class="container">
+      <p class="bot-cl-txt wht-txt">Call us at: <span>8100 300 500</span></p>
+      <ul class="social-icon">
+        <li>
+          <a href="https://www.facebook.com/Indivac" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/IndivacIndia" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+        </li>
+      </ul>
+      <div class="ftr-right">
+        <p class="dis-text"><a href="javascript:void(0);" style="color:#fff; text-decoration:none;" target="_blank">Disclaimer &nbsp; | &nbsp; Privacy Policy</a></p>
+        <p class="copyright">&copy; 2022 Indivac. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <script type="text/javascript" src="js/bootstrap-datepicker.js"></script> 
+  <script type="text/javascript" src="js/child_vaccinations.js"></script>
+  <div class="modal fade" id="createVacCardModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close">&times;</button>
+          <h4 class="modal-title">CREATE VACCINATION SCHEDULE</h4>
+        </div>
+        <div class="modal-body">
+          <form action="controller/createvaccard.php" method="post" name="frmVaccineSchedule" id="frmVaccineSchedule">
+            <input type="hidden" name="pagename" value="child-vaccinations"> <input type="hidden" name="hidden_ch_name" value=""> <input type="hidden" name="hidden_ch_dob" value=""> <input type="hidden" name="hidden_ch_gender" value="">
+            <div class="form-style">
+              <p id="ch_error_msg_hidden" class="disp-no"></p>
+              <div>
+                <label><span>Email <span class="required">*</span></span> <input type="text" name="hidden_ch_email" class="input-field"></label> <label><span>Phone <span class="required">*</span></span> <input type="text" name="hidden_ch_phone" class="input-field"></label> <label><span>&nbsp;</span> <button type="submit" class="btn btn-primary">Create Now</button></label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p style="float:left; font-size:14px; text-align:left; color:#000;"></p><button type="button" class="btn btn-default">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close">&times;</button>
+          <h4 class="modal-title">Request a vaccination</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-style" id="vaccine_request_form">
+            <form action="controller/vaccinerequest.php" method="post" name="frmVaccineRequest" enctype="multipart/form-data" id="frmVaccineRequest">
+              <input type="hidden" name="vc_pagename" value="child-vaccinations.php">
+              <div id="contact_results" class="error disp-no"></div>
+              <div id="contact_body">
+                <label><span>Name <span class="required">*</span></span> <input type="text" name="vacc_name" class="input-field"></label> <label><span>Mobile <span class="required">*</span></span> <input type="text" name="vacc_mobile" maxlength="15" class="input-field"></label> <label><span>Email <span class="required">*</span></span> <input type="text" name="vacc_email" class="input-field"></label> <label><span>Regarding</span> <select name="vacc_subject" class="select-field">
+                  <option value="Child Vaccination">
+                    Child Vaccination
+                  </option>
+                  <option value="Pregnancy Vaccination">
+                    Pregnancy Vaccination
+                  </option>
+                  <option value="Adult Vaccination">
+                    Adult Vaccination
+                  </option>
+                </select></label> <label><span>Upload Prescription</span> <input type="file" name="file_attach" class="input-field"></label> <label><span>Remarks</span> 
+                <textarea name="vacc_remarks" rows="8" cols="34" class="textarea-field"></textarea></label>
+                <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LfQSIoaAAAAADbCNT61Wntk1PMSSC6UmXICVzS5"></div><label><span>&nbsp;</span> <button type="submit" id="submit_btn" class="btn btn-primary">Submit</button></label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p style="float:left; font-size:14px; text-align:left; color:#000;">Vaccination Service Charge : Rs.198/-*<br>
+          We offer 5% discount on vaccine/medicine price.*</p><button type="button" class="btn btn-default">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1692946324281243');
+  fbq('track', "PageView");
+  </script> <noscript></noscript> 
+  <script type="text/javascript">
+
+
+  $(document).ready(function(){
+        var timer = {};
+        $("#submit_btn").click(function(){
+                var vcName = $.trim($('#vaccine_request_form input[name="vacc_name"]').val());
+                var vcMobile = $.trim($('#vaccine_request_form input[name="vacc_mobile"]').val());
+                var vcEmail = $.trim($('#vaccine_request_form input[name="vacc_email"]').val());
+                var vcEmailValid = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                
+                var vcMsgHidden = '';
+                if(vcName.search(/\S/) == -1){
+                        vcMsgHidden = 'Name cannot be left blank.';
+                }else if(vcMobile.search(/\S/) == -1){
+                        vcMsgHidden = 'Mobile cannot be left blank.';
+                }else if(vcMobile.search(/^[0-9\+,\-\s\(\)]+$/) == -1){
+                        vcMsgHidden = 'Mobile number invalid.';
+                }else if(vcMobile.length != 10){
+                        vcMsgHidden = 'Mobile number invalid.';
+                }else if(vcEmail.search(/\S/) == -1){
+                        vcMsgHidden = 'Email cannot be left blank.';
+                }else if(vcEmailValid.test(vcEmail)== false){
+                        vcMsgHidden = 'Email address invalid.';
+                }
+
+                clearTimeout(timer.vcerrormsghidden);
+                if(vcMsgHidden != ""){
+                        $("#contact_results").html(vcMsgHidden).removeClass("disp-no");
+                        timer.vcerrormsghidden = setTimeout(function(){
+                                $("#contact_results").addClass("disp-no").html("&nbsp;");
+                                timer.vcerrormsghidden = 0;
+                        },5000);
+                } else {
+                        $("#contact_results").removeClass().addClass('success').html('Please wait...');
+                        return true;
+                }
+                return false;
+        });
+
+        $("#myModal").find('button[type="button"]').click(function(){
+                $("#myModal").find('input, textarea').val('');
+                $("#myModal").modal('hide');
+        });
+  });
+
+  $(window).scroll(function(){
+        if($(this).scrollTop()){
+                $('#toTop').fadeIn();
+        }else{
+                $('#toTop').fadeOut();
+        }
+  });
+
+  $("#toTop").click(function(){
+        $("html, body").animate({scrollTop: 0}, 1500);
+  });
+
+  $("#page_navigation a").click(function(){
+        $('html,body').animate({
+                scrollTop: $(".Video-holder").offset().top},
+        'slow');
+  });
+  //smooth scrolling
+
+  $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+                window.location.hash = target;
+        });
+  });
+  </script> 
+  <script type="text/javascript">
+
+
+  /* <![CDATA[ */
+  var google_conversion_id = 934737598;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script> <noscript>
+  <div style="display:inline;"></div></noscript>
+</body>
+</html>

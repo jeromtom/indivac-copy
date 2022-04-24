@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get vaccination at your door step & request for vaccination at your convenience. Get digital medical reports through your phone at anytime. Call:8100-300-500">
+  <title>Book Vaccination for Child, Adult &amp; Pregnant Women | Indivac</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-holder">
+        <a href="/" title="Indivac"><img src="images/logo.png" alt="logo"></a>
+      </div>
+      <div class="top-contact">
+        <div class="top-link">
+          <p class="phn-text">Helpline: 8100-300-500</p><a href="https://www.facebook.com/Indivac/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="/users/"><span class="lock"></span>Log In</a> <a href="/users/signup"><span class="reg"></span>Register</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="current-menu-item">
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="child-vaccinations">Child Vaccination</a>
+            </li>
+            <li>
+              <a href="adult-vaccination">Adult Vaccination</a>
+            </li>
+            <li>
+              <a href="/blog" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a href="indivac-in-media">Press</a>
+            </li>
+            <li>
+              <a href="contact-indivac">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="banner-holder">
+    <div class="container">
+      <div class="banner-content">
+        <p class="bnr-txt1 blu-text">Get Vaccination Today <span>for a</span> Healthy Tomorrow</p>
+        <p class="bnr-txt2">Hassle Free vaccination Services Now to your doorstep</p><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" class="reqst-text">VACCINATE NOW</a>
+      </div>
+    </div>
+  </div>
+  <div class="banner-bot">
+    <div class="container">
+      <div class="mrgn-auto">
+        <h1>CLICK HERE TO CREATE YOUR <span>VACCINATION SCHEDULE</span><img src="images/ban-bot-arr.png" alt="" class="ban-bot-arw"></h1><a href="#create" class="create">CREATE NOW</a>
+      </div>
+    </div>
+  </div>
+  <section id="benefits">
+    <div class="container">
+      <h1 class="cntr clr">Benefits with <span class="bold-txt blue-txt">US</span></h1>
+      <p>&nbsp;</p>
+      <div class="row benft-block">
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon1.png" alt="">
+          <p class="ben-hdng">No more <b>long queues<br>
+          at chambers</b></p>
+          <p>Our expert vaccinators will go at your home as per your comfortable time.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon2.png" alt="">
+          <p></p>
+          <p class="ben-hdng">Never miss out on <b>Vaccination dates</b></p>
+          <p>We ensure timely reminders through our mobile app and SMS</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon3.png" alt="">
+          <p></p>
+          <p class="ben-hdng">No more <b>exposure<br>
+          to sick kids</b></p>
+          <p>No more exposure of your kid to other patients in waiting area.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/benefit-icon4.png" alt="">
+          <p></p>
+          <p class="ben-hdng">Ultimate <b>homely comfort and hygiene</b></p>
+          <p>No more packing bags, food etc. & getting ready for just a vaccination.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="create">
+    <div class="container">
+      <h1 class="cntr">Create<br>
+      <span class="bold-txt">Your Child's Vaccination Schedule Now!</span></h1>
+      <div class="cntr"><img src="images/hdng-bot-wht.png" alt=""></div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="lft-cont">
+            <p class="create-lft"><span class="icon-block"><img src="images/clock.png" alt=""></span><span class="tp-mrgn">Get <b>Regular Alerts &amp; Reminders</b></span></p>
+            <p class="create-lft"><span class="icon-block"><img src="images/record.png" alt=""></span><span class="tp-mrgn">Maintain <b>Child's Vaccination Records</b></span></p>
+            <p class="create-lft"><span class="icon-block"><img src="images/record-1.png" alt=""></span><span class="tp-mrgn">Maintain <b>Child's Health Records and more</b></span></p>
+            <p class="cndtion"><i>**as per IAP guidelines</i></p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-holder" id="vacc_sch_box">
+            <h1 class="form-hdng">VACCINATION <span class="bold-txt">SCHEDULE</span></h1>
+            <p id="ch_error_msg" class="disp-no"></p><input type="text" name="ch_name" value="" class="inpt-style" placeholder="Child Name"> <input type="text" name="ch_dob" value="" class="inpt-style datepicker" placeholder="Date of Birth (DD-MM-YYYY)" autocomplete="off"> <select name="ch_gender" class="inpt-style">
+              <option value="">
+                Gender
+              </option>
+              <option value="female">
+                Female
+              </option>
+              <option value="male">
+                Male
+              </option>
+            </select> <input type="button" name="btnSchedule" value="CREATE VACCINATION SCHEDULE" class="schedule">
+          </div>
+        </div>
+      </div>
+      <div class="rockt-img"><img src="images/rockt-img.png" alt=""></div>
+    </div>
+  </section>
+  <section id="ensure">
+    <div class="container">
+      <h1 class="cntr clr">We <span class="bold-txt blue-txt">Ensure</span></h1>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-sm-3 cntr">
+          <img src="images/ensure-icon1.png" alt="">
+          <p class="ben-hdng">Experienced <b>Paramedics</b></p>
+          <p>We send experienced paramedics to vaccinate. You can be rest assured on the authenticity of the vaccinator.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/ensure-icon2.png" alt="">
+          <p></p>
+          <p class="ben-hdng">Temperature <b>Control</b></p>
+          <p>We maintain proper end-to-end cold chain for the vaccine-in-transit through unique mobile refrigerators maintaining vaccine potency.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/ensure-icon3.png" alt="">
+          <p></p>
+          <p></p>
+          <p class="ben-hdng">Total <b>Transparency</b></p>
+          <p>We extend transparency all through the system sharing vaccine details, MRP and other relevant data points.</p>
+        </div>
+        <div class="col-sm-3 cntr">
+          <img src="images/ensure-icon4.png" alt="">
+          <p></p>
+          <p></p>
+          <p class="ben-hdng">Convenient <b>Timing</b></p>
+          <p>Request vaccination at your convenient timing. No more missing out or delays to office/work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="book-now">
+    <div class="tp-blue-sec">
+      <div class="container">
+        <div class="book-area">
+          <h1><span>CLICK HERE TO BOOK A</span><br>
+          HOME VACCINATION</h1><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" class="bk-nw">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="call-section">
+      <div class="container">
+        <div class="arr-top"></div>
+        <p class="cl-txt wht-txt cntr"><img src="images/cll.png" alt=""> To know more call <span>8100-300-500</span></p>
+        <div class="dwn-arr-bk"><img src="images/arrow-dwn.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section id="adult-vccn">
+    <div class="container">
+      <div class="col-sm-6 rght-sctn-mrgn fr">
+        <h1 class="adlt-txt">Vaccination is not just for children</h1>
+        <h1 class="adlt-grn bold-txt">Adults can be prevented from 14 life threatening diseases through vaccination</h1><a href="adult-vaccination" class="knw-mr">CLICK HERE TO KNOW MORE</a>
+      </div>
+      <div class="col-sm-6"><img src="images/couple-img.png" alt=""></div>
+    </div>
+  </section>
+  <div class="mobile-section">
+    <img src="images/phn.png" class="phn-img" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mobile-cnnt">
+            <p class="mob-app-text wht-txt"><span>Introducing<br>
+            Mobile APP</span></p>
+            <p class="dwnld-text blue-text"><a target="_blank" style="cursor:none;">Download <span>APP</span></a></p>
+            <div class="pertnr-img">
+              <a href="https://play.google.com/store/apps/details?id=com.indivac" target="_blank"><img src="images/gplay.png" alt=""></a> <a href="https://itunes.apple.com/in/app/indivac-doorstep-vaccination/id1063157261?mt=8" target="_blank"><img src="images/app.png" alt=""></a>
+            </div>
+          </div>
+          <div class="app-cntnt">
+            <p class="mob-app-text wht-txt"><span>APP FEATURES</span></p>
+            <ul class="app-list">
+              <li>Vaccination Schedules</li>
+              <li>Vaccination Reminders & Alerts</li>
+              <li>Vaccination at Home Requests</li>
+              <li>Digital Vaccination Card</li>
+              <li>Digital Medical Records for Family</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="family-cntnt-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="family-holder">
+            <p class="family-text-new">Manage Your Entire Family’s Medical Records all at one place just on a click of a pic by your phone.</p>
+            <p class="family-des-new blue-txt">Access & Share medical records<br>
+            <span class="green-txt">anytime, anywhere.</span></p>
+            <p></p>
+            <h1 class="family-text-new">DOWNLOAD APP NOW</h1>
+            <div class="pertnr-img-new">
+              <a href="https://play.google.com/store/apps/details?id=com.indivac" target="_blank"><img src="images/gplay-new.png" alt=""></a> <a href="https://itunes.apple.com/in/app/indivac-doorstep-vaccination/id1063157261?mt=8" target="_blank"><img src="images/app-new.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="bot-grn-block">
+    <div class="container">
+      <div class="grn-area-txt">
+        <h1 class="wht-txt"><span class="bold-txt">INDIVAC</span> - Simplifying Vaccination<br>
+        For A Healthy Nation</h1>
+      </div>
+    </div>
+  </section>
+  <section id="testimonial-hm">
+    <div class="container">
+      <h1 class="cntr clr">Indivac <span class="bold-txt blue-txt">Testimonials</span></h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testi-block">
+            <div class="testi-img"><img src="images/sabyasachi-ghosh.jpg" alt="testimonial img"></div>
+            <h1 class="author-name">Sabyasachi Ghosh</h1>
+            <div class="testi-col">
+              <blockquote>
+                <p>Worry about Child Vaccination come to an end. Very much professional service with skilled health personnel at doorstep. As parents we feel very safe and happy with the services.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testi-block">
+            <div class="testi-img"><img src="images/priti-agarwal%E2%80%8E.jpg" alt="testimonial img"></div>
+            <h1 class="author-name">Priti Agarwal‎</h1>
+            <div class="testi-col">
+              <blockquote>
+                <p>Child vaccination today has become a tension for parents due to doctors but now it’s easy with Indivac. Indivac vaccination service at our doorsteps is excellent.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testi-block">
+            <div class="testi-img"><img src="images/kalpana-jain.jpg" alt="testimonial img"></div>
+            <h1 class="author-name">Kalpana Jain</h1>
+            <div class="testi-col">
+              <blockquote>
+                <p>Really a must in today's world. Time saving n convenient at your comfort, the vaccinator did the job absolutely to the mark of my expectations. New way of getting your baby vaccinated at your doorstep.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-rd-mr">
+        <a class="knw-mr" href="indivac-testimonials">CLICK HERE TO READ MORE</a>
+      </div>
+    </div>
+  </section>
+  <section id="nwsletter">
+    <div class="container">
+      <div class="nwslttr-block">
+        <h1 class="wht-txt">Email <span class="bold-txt">Newsletter</span></h1>
+        <form action="controller/subscribenow.php" method="post" class="nwsltr-form">
+          <input type="hidden" name="email_news_pagename" value="index.php"> <input type="email" name="email_news" class="inpt-style nws-inpt" placeholder="Email Address" required=""> <input type="email" class="disp-no" name="email_hidden"> <input type="submit" value="SUBSCRIBE" name="subsc" class="bk-nw sbscrb">
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="media">
+    <div class="container">
+      <h1 class="cntr clr">Indivac in <span class="bold-txt blue-txt">Media</span></h1>
+      <p>&nbsp;</p>
+      <div class="nwsltr-logo-sec">
+        <ul class="logo-list">
+          <li>
+            <a href="http://articles.economictimes.indiatimes.com/2015-11-26/news/68582013_1_vaccination-indian-academy-lcd-display" target="_blank"><img src="images/e-t-logo.jpg" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://bangla.yourstory.com/read/d473b1ac3a/door-to-door-service-tikakarane-indibhyakera?c=b6" target="_blank"><img src="images/your-story.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.thehindubusinessline.com/news/national/vaccination-service-in-kolkata/article7919877.ece" target="_blank"><img src="images/hindu-b-line.jpg" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="https://in.news.yahoo.com/kid-vaccinated-home-click-button-132604482.html" target="_blank"><img src="images/yahoo.jpeg" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.business-standard.com/article/news-ians/get-your-kid-vaccinated-at-home-at-the-click-of-a-button-115112600959_1.html" target="_blank"><img src="images/bs-logo.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="http://zeenews.india.com/news/health/health-news/get-your-kid-vaccinated-at-home-at-the-click-of-a-button_1826905.html" target="_blank"><img src="images/zeenews-logo.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/anandabaza.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/hindustan.gif" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/times-of-india.png" class="grayscale" alt=""></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);"><img src="images/telegraph.jpg" class="grayscale" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <div class="testi-rd-mr">
+        <a class="knw-mr" href="indivac-in-media">CLICK HERE TO READ MORE</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div id='toTop' title="Scroll to top"></div>
+    <div class="container">
+      <p class="bot-cl-txt wht-txt">Call us at: <span>8100 300 500</span></p>
+      <ul class="social-icon">
+        <li>
+          <a href="https://www.facebook.com/Indivac" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/IndivacIndia" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+        </li>
+      </ul>
+      <div class="ftr-right">
+        <p class="dis-text"><a href="javascript:void(0);" style="color:#fff; text-decoration:none;" target="_blank">Disclaimer &nbsp; | &nbsp; Privacy Policy</a></p>
+        <p class="copyright">&copy; 2022 Indivac. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <script type="text/javascript" src="js/bootstrap-datepicker.js"></script> 
+  <script type="text/javascript" src="js/homepage.js"></script>
+  <div class="modal fade" id="createVacCardModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close">&times;</button>
+          <h4 class="modal-title">CREATE VACCINATION SCHEDULE</h4>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <p style="float:left; font-size:14px; text-align:left; color:#000;"></p><button type="button" class="btn btn-default">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="showVacCardModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close">&times;</button>
+          <h4 class="modal-title">VACCINATION SCHEDULE</h4>
+        </div>
+        <div class="modal-body" id="showVacCardContent"></div>
+        <div class="modal-footer">
+          <p style="float:left; font-size:14px; text-align:left; color:#000;"></p><button type="button" class="btn btn-default">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close">&times;</button>
+          <h4 class="modal-title">Request a vaccination</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-style" id="vaccine_request_form">
+            <form action="controller/vaccinerequest.php" method="post" name="frmVaccineRequest" enctype="multipart/form-data" id="frmVaccineRequest">
+              <input type="hidden" name="vc_pagename" value="index.php">
+              <div id="contact_results" class="error disp-no"></div>
+              <div id="contact_body">
+                <label><span>Name <span class="required">*</span></span> <input type="text" name="vacc_name" class="input-field"></label> <label><span>Mobile <span class="required">*</span></span> <input type="text" name="vacc_mobile" maxlength="15" class="input-field"></label> <label><span>Email <span class="required">*</span></span> <input type="text" name="vacc_email" class="input-field"></label> <label><span>Regarding</span> <select name="vacc_subject" class="select-field">
+                  <option value="Child Vaccination">
+                    Child Vaccination
+                  </option>
+                  <option value="Pregnancy Vaccination">
+                    Pregnancy Vaccination
+                  </option>
+                  <option value="Adult Vaccination">
+                    Adult Vaccination
+                  </option>
+                </select></label> <label><span>Upload Prescription</span> <input type="file" name="file_attach" class="input-field"></label> <label><span>Remarks</span> 
+                <textarea name="vacc_remarks" rows="8" cols="34" class="textarea-field"></textarea></label>
+                <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LfQSIoaAAAAADbCNT61Wntk1PMSSC6UmXICVzS5"></div><label><span>&nbsp;</span> <button type="submit" id="submit_btn" class="btn btn-primary">Submit</button></label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p style="float:left; font-size:14px; text-align:left; color:#000;">Vaccination Service Charge : Rs.198/-*<br>
+          We offer 5% discount on vaccine/medicine price.*</p><button type="button" class="btn btn-default">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1692946324281243');
+  fbq('track', "PageView");
+  </script> <noscript></noscript> 
+  <script type="text/javascript">
+
+
+  $(document).ready(function(){
+        var timer = {};
+        $("#submit_btn").click(function(){
+                var vcName = $.trim($('#vaccine_request_form input[name="vacc_name"]').val());
+                var vcMobile = $.trim($('#vaccine_request_form input[name="vacc_mobile"]').val());
+                var vcEmail = $.trim($('#vaccine_request_form input[name="vacc_email"]').val());
+                var vcEmailValid = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                
+                var vcMsgHidden = '';
+                if(vcName.search(/\S/) == -1){
+                        vcMsgHidden = 'Name cannot be left blank.';
+                }else if(vcMobile.search(/\S/) == -1){
+                        vcMsgHidden = 'Mobile cannot be left blank.';
+                }else if(vcMobile.search(/^[0-9\+,\-\s\(\)]+$/) == -1){
+                        vcMsgHidden = 'Mobile number invalid.';
+                }else if(vcMobile.length != 10){
+                        vcMsgHidden = 'Mobile number invalid.';
+                }else if(vcEmail.search(/\S/) == -1){
+                        vcMsgHidden = 'Email cannot be left blank.';
+                }else if(vcEmailValid.test(vcEmail)== false){
+                        vcMsgHidden = 'Email address invalid.';
+                }
+
+                clearTimeout(timer.vcerrormsghidden);
+                if(vcMsgHidden != ""){
+                        $("#contact_results").html(vcMsgHidden).removeClass("disp-no");
+                        timer.vcerrormsghidden = setTimeout(function(){
+                                $("#contact_results").addClass("disp-no").html("&nbsp;");
+                                timer.vcerrormsghidden = 0;
+                        },5000);
+                } else {
+                        $("#contact_results").removeClass().addClass('success').html('Please wait...');
+                        return true;
+                }
+                return false;
+        });
+
+        $("#myModal").find('button[type="button"]').click(function(){
+                $("#myModal").find('input, textarea').val('');
+                $("#myModal").modal('hide');
+        });
+  });
+
+  $(window).scroll(function(){
+        if($(this).scrollTop()){
+                $('#toTop').fadeIn();
+        }else{
+                $('#toTop').fadeOut();
+        }
+  });
+
+  $("#toTop").click(function(){
+        $("html, body").animate({scrollTop: 0}, 1500);
+  });
+
+  $("#page_navigation a").click(function(){
+        $('html,body').animate({
+                scrollTop: $(".Video-holder").offset().top},
+        'slow');
+  });
+  //smooth scrolling
+
+  $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+                window.location.hash = target;
+        });
+  });
+  </script> 
+  <script type="text/javascript">
+
+
+  /* <![CDATA[ */
+  var google_conversion_id = 934737598;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script> <noscript>
+  <div style="display:inline;"></div></noscript>
+</body>
+</html>
